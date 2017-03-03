@@ -1,5 +1,5 @@
-
 require "rspec"
+
 
 require_relative "task"
 
@@ -14,7 +14,7 @@ describe Task do
     end
 
     it "requires one argument" do
-      expect { Task.new }.to raise_error(ArgumentError)
+      expect {Task.new}.to raise_error(ArgumentError)
     end
   end
 
